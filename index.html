@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/2bca551a98.js" crossorigin="anonymous"></script>
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="header.css">
+
+        <title>YEBET SERVICES PLUS</title>
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+
+         <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">YEBET SERVICES PLUS</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Accueil</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+        <div class="slider">
+            <!-- fade css -->
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>YEBET Services Plus</h1>
+                    <p>Restez chez vous et laissez nous vous faciliter la vie.</p>
+                </div>
+                <img src="img1.jpg" style="width: 100%; height: 100%;">
+            </div>
+            
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>Livraison</h1>
+                    <p>Nous livrons tout et partout</p>
+                </div>
+                <img src="img2.jpg" style="width: 100%; height: 100%;">
+            </div>  
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>Entretien</h1>
+                    <p><br>Nous assurons l'entretient de vos espaces, l'élagage et le ramassage de vos ordures ménagères.</p>
+                </div>
+                <img src="img5.jfif" style="width: 100%; height: 100%;">
+            </div>         
+            
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>Transport</h1>
+                    <p>Nous transportons vos colis et marchandises sur toute l'étendue du territoire.</p>
+                </div>
+                <img src="img4.jpg" style="width: 100%; height: 100%;">
+            </div>            
+     
+            <!-- /fade css -->
+            
+            <!-- onclick js -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            <div class="dotsbox" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+              
+            </div>
+            <!-- /onclick js -->
+        </div>
+
+        <main class="l-main">            
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">Le mot du Directeur Général</span>
+                        <h2 class="section-title about__initial soustitre">Notre vision stratégique</h2>
+                        <p class="about__description">Yebet Services Plus est une société de services qui offre des prstations dans les domaines d'entretien, de livraison et de transport. Notre but est de faciliter le quotidien de nos compatriotes et des entreprises en répondant à leurs besoins axés sur nos offres. Avec des collaborateurs éfficaces et efficients; votre satisfaction est notre priorité.</p>
+                       
+                    </div>
+
+                    <img src="logo.PNG" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--========== SERVICES ==========-->
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle">Nos offres</span>
+                <h2 class="section-title soustitre">Nos services de qualité</h2>
+
+                <div class="services__container  bd-grid">
+                    <div class="services__content">
+                        <svg class="services__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M8.965 18a3.5 3.5 0 0 1-6.93 0H1V6a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2h3l3 4.056V18h-2.035a3.5 3.5 0 0 1-6.93 0h-5.07zM15 7H3v8.05a3.5 3.5 0 0 1 5.663.95h5.674c.168-.353.393-.674.663-.95V7zm2 6h4v-.285L18.992 10H17v3zm.5 6a1.5 1.5 0 1 0 0-3.001 1.5 1.5 0 0 0 0 3.001zM7 17.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"/>
+                        </svg>
+                    </svg>
+                    <h3 class="services__title">Livraison</h3>
+                    <p class="services__description">Livraison de produits locaux aux prix du kilogramme; Livraison de plat de vos restaurants favoris; Livraison d'eau... </p>
+                </div>
+                    <div class="services__content">
+                        <svg class="services__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M9 19h3v-6.058L8 9.454l-4 3.488V19h3v-4h2v4zm12 2H3a1 1 0 0 1-1-1v-7.513a1 1 0 0 1 .343-.754L6 8.544V4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1zm-5-10v2h2v-2h-2zm0 4v2h2v-2h-2zm0-8v2h2V7h-2zm-4 0v2h2V7h-2z"/></svg>
+                        <h3 class="services__title">Entretien</h3>
+                        <p class="services__description">Ramassage des ordures ménagères; Entretient des espaces vert; Elagage... </p>
+                    </div>
+                    <div class="services__content">
+                        <svg class="services__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M8.965 18a3.5 3.5 0 0 1-6.93 0H1V6a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2h3l3 4.056V18h-2.035a3.5 3.5 0 0 1-6.93 0h-5.07zM15 7H3v8.05a3.5 3.5 0 0 1 5.663.95h5.674c.168-.353.393-.674.663-.95V7zm2 6h4v-.285L18.992 10H17v3zm.5 6a1.5 1.5 0 1 0 0-3.001 1.5 1.5 0 0 0 0 3.001zM7 17.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"/>
+                        </svg>
+                        </svg>
+                    <h3 class="services__title">Transport</h3>
+                        <p class="services__description">Déménagement; Transport de matériaux...</p>
+                    </div>           
+
+                </div>
+            </section>
+            
+
+            <!--===== APP =======-->
+            <section class="app section bd-container">
+                <div class="app__container bd-grid">
+                    <div class="app__data">
+                        <span class="section-subtitle app__initial">Une équipe agile</span>
+                        <h2 class="section-title app__initial soustitre">Des hommes et des femmes</h2>
+                        <p class="app__description">Nous mettons à votre disposition une équipe qualifiée efficace et avenante, satisfaction assuré. </p>
+                    </div>
+                    <img src="équipe.jfif" alt="" class="app__img">
+                </div>
+            </section>
+
+            <!--========== CONTACT US ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Contactez nous</span>
+                        <h2 class="section-title contact__initial soustitre">Nous sommes disponible</h2>
+                        <p class="contact__description">Si vous souhaitez réserver une prestation, contactez-nous et nous vous répondrons rapidement.</p>
+                    </div>
+
+                    <div class="contact__button">
+                        <a href="https://wa.me/message/VCTE67DEMGZFP1" class="button">Whatsapp</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">YEBET Services Plus</a>
+                    <span class="footer__description">Multiservices</span>
+                    <div>
+                        <a href="https://m.facebook.com/TACO-Latino-101364866561051/" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#services" class="footer__link">Entretien</a></li>
+                        <li><a href="#services" class="footer__link">Livraison</a></li>
+                        <li><a href="#services" class="footer__link">Transport</a></li>
+                        
+                        
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Informations</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Du lundi au vendredi: 08h-18h</a></li>
+                
+                        <li><a href="#" class="footer__link">le samedi: 08-13h  </a></li>
+                        <li><a href="tel:+24166638784" class="footer__link">+24166638784</a></li>
+                        <li><a href="mailto:yebetsp@gmail.com" class="footer__link">yebetsp@gmail.com</a></li>
+                       
+                        
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Adress</h3>
+                    <ul>
+                        
+                        <li>Owendo - Akournam 2 après le marché en face de la passerelle à l'immeuble peint en rose au 1er étage. </li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2021 YEBET SERVICES PLUS. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="main.js"></script>
+        <script src="jsfile.js"></script>
+    </body>
+</html>
+© 2021 GitHub, Inc.
+Terms
