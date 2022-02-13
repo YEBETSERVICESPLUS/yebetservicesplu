@@ -437,7 +437,7 @@ img{
 
 .footer__title{
   font-size: var(--h2-font-size);
-  color: var(--title-color);
+  color: white;
   margin-bottom: var(--mb-2);
 }
 
