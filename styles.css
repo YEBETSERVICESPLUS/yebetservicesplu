@@ -117,7 +117,7 @@ img{
 
 .section-title{
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: white;
   margin-bottom: var(--mb-3);
 }
 
@@ -478,6 +478,7 @@ img{
     color: white;
   }
 
+  
   .about__img, .app__img{
     width: 380px;
     order: -1;
